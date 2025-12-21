@@ -13,4 +13,6 @@ The technique of *complex scaling* is a popular choice when treating such proble
 **star-shaped.ipynb** - Implements star-shaped PML using frequency-dependent complex scaling for non-convex geometries
 
 **scattering-starshaped.ipynb** - Build upon previous notebooks to formulate a system to solve sourve problems in the time domain.
+
+**starshaped_polynomial_EV.ipynb** - Focuses on underlying eigenvalue problem to investigate stability of the time domain solution. 
 ...
