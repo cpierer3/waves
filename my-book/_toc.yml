@@ -7,7 +7,7 @@ options:
   numbered: true
 chapters:
 - file: thesis
-  title: "📄 Bachelor Thesis PDF"
+  title: " Bachelor Thesis PDF"
 - file: standard_pml
   title: "Frequency Domain PMLs in NGSolve"
 - file: star-shaped

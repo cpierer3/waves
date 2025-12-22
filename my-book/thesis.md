@@ -12,7 +12,7 @@ This page provides access to the complete bachelor thesis document.
 
 ### Access the Full Document
 
-📄 **[Download PDF: Bachelorarbeit_Constantin_Pierer.pdf](./Bachelorarbeit_Constantin_Pierer.pdf)**
+**[Download PDF: Bachelorarbeit_Constantin_Pierer.pdf](./Bachelorarbeit_Constantin_Pierer.pdf)**
 
 
 ### Related Notebooks
