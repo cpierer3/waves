@@ -15,7 +15,7 @@ This book provides practical implementations and numerical experiments that comp
 1. **📄 Bachelor Thesis PDF** - Complete theoretical foundation and mathematical derivations
 2. **Frequency Domain PMLs** - Basic Cartesian PML implementation in NGSolve
 3. **Star-Shaped PML Methods** - Core methodology with frequency-dependent scaling
-4. **Time-Domain Scattering** - Crank-Nicolson schemes for wave scattering problems
+4. **Time-Domain Scattering** - Solving source problems in the Time Domain
 5. **Eigenvalue Analysis** - Spectral validation and robustness testing
 
 ## Dependencies
