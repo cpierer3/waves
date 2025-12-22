@@ -1,0 +1,43 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: "Star-Shaped PML Methods for Wave Propagation"
+author: "Constantin Pierer"
+logo: logo.png
+
+# Execution settings - disabled due to NGSolve dependencies
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: "off"  # Change to "force" if you want execution
+  allow_errors: true
+  timeout: 300
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Enable automatic numbering of sections
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+
+# Automatically number sections
+html:
+  use_issues_button: false
+  use_repository_button: false
+  extra_footer: |
+    <div>
+    Bachelor Thesis - TU Wien, Technical Mathematics
+    </div>
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/cpierer3/waves.git  # Update with your repo
+  path_to_book: waves/my-book  # Path to book in repo
+  branch: main  # Update branch name

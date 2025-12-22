@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  numbered: true
+chapters:
+- file: thesis
+  title: "📄 Bachelor Thesis PDF"
+- file: standard_pml
+  title: "Frequency Domain PMLs in NGSolve"
+- file: star-shaped
+  title: "Star-Shaped PML Methods"
+- file: scattering_starshaped
+  title: "Time-Domain Scattering"
+- file: starshaped_polynomial_EV
+  title: "Eigenvalue Analysis"

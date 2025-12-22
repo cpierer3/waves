@@ -1,0 +1,6 @@
+jupyter-book>=0.14.0
+matplotlib
+numpy
+scipy
+# NGSolve would be needed for full execution but is complex to install
+# The notebooks are configured for display-only mode
