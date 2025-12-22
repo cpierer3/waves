@@ -2,7 +2,7 @@
 
 This Jupyter Book contains the computational implementations from the Bachelor Thesis **"Time Domain Perfectly Matched Layers in Generalized Star-Shaped Coordinates for Scalar Problems."**.
 
-📄 **[Access the complete Bachelor Thesis PDF here](./thesis.html)**
+ **[Access the complete Bachelor Thesis PDF here](./thesis.html)**
 
 ## Abstract
 
@@ -12,7 +12,7 @@ The technique of *complex scaling* is a popular choice when treating such proble
 
 This book provides practical implementations and numerical experiments that complement the theoretical framework in the thesis:
 
-1. **📄 Bachelor Thesis PDF** - Complete theoretical foundation and mathematical derivations
+1. **Bachelor Thesis PDF** - Complete theoretical foundation and mathematical derivations
 2. **Frequency Domain PMLs** - Basic Cartesian PML implementation in NGSolve
 3. **Star-Shaped PML Methods** - Core methodology with frequency-dependent scaling
 4. **Time-Domain Scattering** - Solving source problems in the Time Domain
