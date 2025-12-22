@@ -411,6 +411,7 @@ document.write(`
 <h2><span class="section-number">2.2. </span>PML Implementation in NGSolve<a class="headerlink" href="#pml-implementation-in-ngsolve" title="Link to this heading">#</a></h2>
 <p>In NGSolve, PMLs are implemented as <strong>mesh transformations</strong> that apply complex coordinate scaling. The Cartesian PML creates a complex scaling transformation outside a specified rectangular region.</p>
 <p>The complex scaling effectively “stretches” the coordinates in the complex plane, causing waves to decay exponentially as they propagate through the PML region.</p>
+<p>In <a class="reference download internal" download="" href="_downloads/b0a41e0019e40db77b6e6aa793d1eee1/Bachelorarbeit_Constantin_Pierer.pdf"><span class="xref download myst">Chapter 3 of the Bachelor Thesis</span></a> we see how the corresponding comlex scaled system looks like. In ngsolve those computations are internally done in the pml class with additional mesh transformation.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pml_cart</span> <span class="o">=</span> <span class="n">pml</span><span class="o">.</span><span class="n">Cartesian</span><span class="p">((</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">alpha</span> <span class="o">=</span> <span class="mi">2</span><span class="n">j</span><span class="p">)</span>
@@ -434,7 +435,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "5071087df4274168b2b8e083868071d6", "version_major": 2, "version_minor": 0}</script><script type="application/vnd.jupyter.widget-view+json">{"model_id": "62ceb3d6408b4797ae2702578a6ade24", "version_major": 2, "version_minor": 0}</script><div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>BaseWebGuiScene
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "fd8e9205d36649e0987e3f14b62a6db7", "version_major": 2, "version_minor": 0}</script><script type="application/vnd.jupyter.widget-view+json">{"model_id": "453fbcce777749928af4887b849c0ed2", "version_major": 2, "version_minor": 0}</script><div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>BaseWebGuiScene
 </pre></div>
 </div>
 </div>
@@ -477,7 +478,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "a4f9414df0734d77abdd0e51f8a0b7ac", "version_major": 2, "version_minor": 0}</script><div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>BaseWebGuiScene
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "aee6347abf6c4e7b93d0f00f14a2185a", "version_major": 2, "version_minor": 0}</script><div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>BaseWebGuiScene
 </pre></div>
 </div>
 </div>
@@ -492,6 +493,7 @@ document.write(`
 <li><p><strong>Interior region (<span class="math notranslate nohighlight">\(\Omega_{\text{int}}\)</span>)</strong>: The solution exhibits natural wave propagation behavior</p></li>
 <li><p><strong>PML region (<span class="math notranslate nohighlight">\(\Omega_{\text{ext}}\)</span>)</strong>: Artificial damping is applied through complex coordinate transformation</p></li>
 </ul>
+<p>A rigorous parameter sensitivity analysis is done in <a class="reference download internal" download="" href="_downloads/b0a41e0019e40db77b6e6aa793d1eee1/Bachelorarbeit_Constantin_Pierer.pdf"><span class="xref download myst">Chapter 3 of the Bachelor Thesis</span></a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">x_vals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>

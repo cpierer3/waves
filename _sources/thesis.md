@@ -21,7 +21,7 @@ The notebooks in this Jupyter Book provide the computational implementations and
 
 1. **Frequency PML in NGSolve** - Basic Cartesian PML implementation
 2. **Star-Shaped PML Methods** - Core methodology and eigenvalue analysis  
-3. **Time-Domain Scattering** - Crank-Nicolson time-stepping schemes
+3. **Time-Domain Scattering** - Solving Time Domain source problems
 4. **Eigenvalue Analysis** - Spectral validation and robustness testing
 
 ```{note}
