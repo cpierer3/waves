@@ -14,9 +14,6 @@ This page provides access to the complete bachelor thesis document.
 
 📄 **[Download PDF: Bachelorarbeit_Constantin_Pierer.pdf](./Bachelorarbeit_Constantin_Pierer.pdf)**
 
-### Abstract
-
-This bachelor thesis investigates star-shaped Perfectly Matched Layer (PML) methods for solving wave propagation problems with artificial boundary conditions. The work focuses on frequency-dependent coordinate transformations and their implementation in NGSolve for both frequency-domain and time-domain computations.
 
 ### Related Notebooks
 
