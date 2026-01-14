@@ -8,11 +8,11 @@ logo: logo.png
 # Execution settings - disabled due to NGSolve dependencies
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: "off"  # Change to "force" if you want execution
+  execute_notebooks: "force"  # Change to "force" if you want execution, cash oder auto
   allow_errors: true
   timeout: 300
 
-# Define the name of the latex output file for PDF builds
+
 latex:
   latex_documents:
     targetname: book.tex
